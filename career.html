@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+    <title> Career </title>
+    <style>
+                
+footer {
+  text-align: center;
+  padding: 20px;
+  margin: -50px;
+  background-color: DarkSalmon;
+  color: white;
+  margin-top: 30%;
+  position: sticky;
+}
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding-left: 20px;
+        }
+        li {
+            display: inline;
+            padding: 0px 0px 10px 0px;
+            justify-content: space-around;
+        }
+        ul {
+            margin: -200px 0px 50px 1000px;
+            font-size: x-large;
+            justify-content: space-between;
+        }
+        body {
+            background-color: rgb(255, 255, 255);
+            background-image: url('images/Capture.PNG');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: auto;
+            background-position: top;
+            overflow: auto;
+           position: relative;
+        }
+        .con {
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+.co{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;  
+}
+        .tbl {
+ align-content: stretch;
+  top: 350px;
+  background-color: rgb(56, 55, 55); 
+  margin-top: 40%;
+ position: sticky;
+  padding: 20px;
+  margin: -50px;
+        }
+        td{
+           font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img width="280px" height="200px" src="images/logo.PNG" alt=" logo ">
+            <hr>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Home </a>
+                    </li>
+                    <li> <a href="about.html"> About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> Contact</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="career.html"> Careers </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class=" con ">
+        <h1> Careers </h1>
+        <h5> <a href="index.html">HOME > </a> <span> <a href="career.html"> CAREER ></a></span></h5>
+    </div>
+    <div class="tbl">
+    <div>
+        <form method="post">
+<center>
+            <table>
+                <tr>
+                    <td class="co">
+                        <b><label for="username"> Name *</label></b>
+                        <br>
+                        <input required id="username" type="text" name="username" size="20" maxlength="30"
+                            placeholder="Enter your name " />
+                    </td>
+                    <td colspan="120"></td>
+                    <td class="co">
+                        <b> Contact no. * </b>
+                        <br>
+                        <input required type="tel" name="no" maxlength="11" placeholder="03XXXXXXXXX">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="co">
+                        <b>Email Address *</b>
+                        <br>
+                        <input required type="email" name="mail" placeholder="Enter your email address">
+                    </td>
+                      <td colspan="120"></td>
+                    <td class="co">
+                        <b> Job Title </b>
+                        <br>
+                        <select name="job">
+                            <option selected value="job"> --- </option>
+                            <option value="c"> Chef </option>
+                            <option value="M"> Manager </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="co">
+                    <td colspan=" 4">
+                        <b> Attach CV *</b>
+                        <br>
+                        <input required type="file" name="picture ">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    <p>                 
+                            <input type="submit">                       
+                  </p>
+                </td>
+            </tr>
+        </center>
+            </table>
+        </form>
+    </div>
+</div>
+<footer>
+    <p>Author: Dania Ahmed<br>
+    <a href="mailto:daniaahmad420@example.com">daniaahmad420@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
